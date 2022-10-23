@@ -42,7 +42,7 @@ function draw() {
 
     //using if statement to bring the original image if click "see me"
   if(isSee){
-    tint(255, frameCount);
+    tint(255, 300);
     image(catImages, 0, 0, width, height);
   }
 }
